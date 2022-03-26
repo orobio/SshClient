@@ -24,14 +24,14 @@ To use `SshClient` in a SwiftPM project, add the following
 line to the dependencies in your `Package.swift` file:
 
 ```swift
-.package(url: "https://github.com/orobio/SshClient"),
+.package(url: "https://github.com/orobio/SshClient", from: "0.1.0"),
 ```
 
 Include `"SshClient"` as a dependency for your executable target:
 
 ```swift
 .target(name: "<target>", dependencies: [
-    .product(name: "SshClient", package: "SshClient"),
+    "SshClient",
 ]),
 ```
 
