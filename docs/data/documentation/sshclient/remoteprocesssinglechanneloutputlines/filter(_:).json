@@ -1,1 +1,430 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"platforms":["Linux"],"languages":["swift"],"tokens":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"filter"},{"kind":"text","text":"("},{"kind":"externalParam","text":"_"},{"kind":"text","text":" "},{"kind":"internalParam","text":"isIncluded"},{"kind":"text","text":": "},{"kind":"keyword","text":"@escaping"},{"kind":"text","text":" ("},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" -> "},{"preciseIdentifier":"s:Sb","kind":"typeIdentifier","text":"Bool"},{"kind":"text","text":") -> "},{"preciseIdentifier":"s:12_Concurrency19AsyncFilterSequenceV","kind":"typeIdentifier","text":"AsyncFilterSequence"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":">"}]}]}],"kind":"symbol","variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines\/filter(_:)"]}],"abstract":[{"type":"text","text":"Inherited from "},{"type":"codeVoice","code":"AsyncSequence.filter(_:)"},{"type":"text","text":"."}],"sections":[],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/filter(_:)"},"metadata":{"fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"filter"},{"kind":"text","text":"(("},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"AsyncFilterSequence","preciseIdentifier":"s:12_Concurrency19AsyncFilterSequenceV"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":">"}],"role":"symbol","title":"filter(_:)","roleHeading":"Instance Method","modules":[{"name":"SshClient"}],"extendedModule":"_Concurrency","externalID":"s:Sci12_ConcurrencyE6filteryAA19AsyncFilterSequenceVyxGSb7ElementQzYacF::SYNTHESIZED::s:9SshClient37RemoteProcessSingleChannelOutputLinesV","platforms":[{"unavailable":false,"beta":false,"introducedAt":"13.0","deprecated":false,"name":"iOS"},{"unavailable":false,"beta":false,"introducedAt":"10.15","deprecated":false,"name":"macOS"},{"name":"tvOS","unavailable":false,"introducedAt":"13.0","deprecated":false,"beta":false},{"name":"watchOS","unavailable":false,"introducedAt":"6.0","deprecated":false,"beta":false}],"symbolKind":"method"},"schemaVersion":{"minor":2,"patch":0,"major":0},"hierarchy":{"paths":[["doc:\/\/SshClient\/documentation\/SshClient","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/AsyncSequence-Implementations"]]},"references":{"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines":{"navigatorTitle":[{"kind":"identifier","text":"RemoteProcessSingleChannelOutputLines"}],"type":"topic","url":"\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines","title":"RemoteProcessSingleChannelOutputLines","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines","role":"symbol","abstract":[{"type":"text","text":"AsyncSequence of lines from stdout or stderr of a remote process."}],"fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"RemoteProcessSingleChannelOutputLines"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines/AsyncSequence-Implementations":{"type":"topic","url":"\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines\/asyncsequence-implementations","title":"AsyncSequence Implementations","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/AsyncSequence-Implementations","role":"collectionGroup","abstract":[],"kind":"article"},"doc://SshClient/documentation/SshClient":{"type":"topic","url":"\/documentation\/sshclient","title":"SshClient","identifier":"doc:\/\/SshClient\/documentation\/SshClient","role":"collection","abstract":[],"kind":"symbol"},"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines/filter(_:)":{"kind":"symbol","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"filter"},{"kind":"text","text":"(("},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"AsyncFilterSequence","preciseIdentifier":"s:12_Concurrency19AsyncFilterSequenceV"},{"kind":"text","text":"<"},{"text":"Self","kind":"typeIdentifier"},{"text":">","kind":"text"}],"type":"topic","abstract":[],"title":"filter(_:)","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/filter(_:)","role":"symbol","url":"\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines\/filter(_:)"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "AsyncSequence.filter(_:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SshClient\/documentation\/SshClient",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/AsyncSequence-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/filter(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "_Concurrency",
+    "externalID" : "s:Sci12_ConcurrencyE6filteryAA19AsyncFilterSequenceVyxGSb7ElementQzYacF::SYNTHESIZED::s:9SshClient37RemoteProcessSingleChannelOutputLinesV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "filter"
+      },
+      {
+        "kind" : "text",
+        "text" : "(("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Element"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12_Concurrency19AsyncFilterSequenceV",
+        "text" : "AsyncFilterSequence"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ">"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SshClient"
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.15",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "6.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "filter(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "filter"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "isIncluded"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "@escaping"
+            },
+            {
+              "kind" : "text",
+              "text" : " ("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Element"
+            },
+            {
+              "kind" : "text",
+              "text" : ") "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "async"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12_Concurrency19AsyncFilterSequenceV",
+              "text" : "AsyncFilterSequence"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : ">"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines\/filter(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SshClient/documentation/SshClient": {
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines": {
+  "abstract" : [
+    {
+      "text" : "AsyncSequence of lines from stdout or stderr of a remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcessSingleChannelOutputLines"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcessSingleChannelOutputLines"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteProcessSingleChannelOutputLines",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines/AsyncSequence-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/AsyncSequence-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "AsyncSequence Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines\/asyncsequence-implementations"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines/filter(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "filter"
+    },
+    {
+      "kind" : "text",
+      "text" : "(("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12_Concurrency19AsyncFilterSequenceV",
+      "text" : "AsyncFilterSequence"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/filter(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "filter(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines\/filter(_:)"
+},
+"https://github.com/apple/swift-nio-ssh": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+  "title" : "swift-nio-ssh",
+  "titleInlineContent" : [
+    {
+      "text" : "swift-nio-ssh",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-nio-ssh"
+}
+}
+}

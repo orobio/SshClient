@@ -1,1 +1,184 @@
-{"schemaVersion":{"minor":2,"patch":0,"major":0},"metadata":{"title":"init()","externalID":"s:9SshClient25CommandLinePasswordPromptVACycfc","symbolKind":"init","fragments":[{"text":"init","kind":"identifier"},{"text":"()","kind":"text"}],"modules":[{"name":"SshClient"}],"role":"symbol","roleHeading":"Initializer"},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/sshclient\/commandlinepasswordprompt\/init()"]}],"primaryContentSections":[{"declarations":[{"tokens":[{"kind":"keyword","text":"init"},{"kind":"text","text":"()"}],"languages":["swift"],"platforms":["Linux"]}],"kind":"declarations"}],"hierarchy":{"paths":[["doc:\/\/SshClient\/documentation\/SshClient","doc:\/\/SshClient\/documentation\/SshClient\/CommandLinePasswordPrompt"]]},"kind":"symbol","abstract":[{"text":"Initialize.","type":"text"}],"sections":[],"identifier":{"url":"doc:\/\/SshClient\/documentation\/SshClient\/CommandLinePasswordPrompt\/init()","interfaceLanguage":"swift"},"references":{"doc://SshClient/documentation/SshClient/CommandLinePasswordPrompt/init()":{"abstract":[{"text":"Initialize.","type":"text"}],"url":"\/documentation\/sshclient\/commandlinepasswordprompt\/init()","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/CommandLinePasswordPrompt\/init()","type":"topic","kind":"symbol","title":"init()","role":"symbol","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"()"}]},"doc://SshClient/documentation/SshClient":{"type":"topic","url":"\/documentation\/sshclient","title":"SshClient","identifier":"doc:\/\/SshClient\/documentation\/SshClient","role":"collection","abstract":[],"kind":"symbol"},"doc://SshClient/documentation/SshClient/CommandLinePasswordPrompt":{"kind":"symbol","fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"CommandLinePasswordPrompt","kind":"identifier"}],"type":"topic","title":"CommandLinePasswordPrompt","navigatorTitle":[{"text":"CommandLinePasswordPrompt","kind":"identifier"}],"abstract":[{"text":"Command line password prompt.","type":"text"}],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/CommandLinePasswordPrompt","role":"symbol","url":"\/documentation\/sshclient\/commandlinepasswordprompt"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Initialize.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SshClient\/documentation\/SshClient",
+        "doc:\/\/SshClient\/documentation\/SshClient\/CommandLinePasswordPrompt"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SshClient\/documentation\/SshClient\/CommandLinePasswordPrompt\/init()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9SshClient25CommandLinePasswordPromptVACycfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SshClient"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sshclient\/commandlinepasswordprompt\/init()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SshClient/documentation/SshClient": {
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/CommandLinePasswordPrompt": {
+  "abstract" : [
+    {
+      "text" : "Command line password prompt.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CommandLinePasswordPrompt"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/CommandLinePasswordPrompt",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CommandLinePasswordPrompt"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CommandLinePasswordPrompt",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/commandlinepasswordprompt"
+},
+"doc://SshClient/documentation/SshClient/CommandLinePasswordPrompt/init()": {
+  "abstract" : [
+    {
+      "text" : "Initialize.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/CommandLinePasswordPrompt\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/commandlinepasswordprompt\/init()"
+},
+"https://github.com/apple/swift-nio-ssh": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+  "title" : "swift-nio-ssh",
+  "titleInlineContent" : [
+    {
+      "text" : "swift-nio-ssh",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-nio-ssh"
+}
+}
+}

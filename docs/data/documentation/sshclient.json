@@ -1,1 +1,540 @@
-{"sections":[],"abstract":[{"type":"text","text":""}],"metadata":{"externalID":"SshClient","modules":[{"name":"SshClient"}],"roleHeading":"Framework","role":"collection","title":"SshClient","symbolKind":"module"},"kind":"symbol","hierarchy":{"paths":[[]]},"schemaVersion":{"major":0,"patch":0,"minor":2},"topicSections":[{"identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines","doc:\/\/SshClient\/documentation\/SshClient\/SshClient","doc:\/\/SshClient\/documentation\/SshClient\/SshConnection"],"title":"Classes"},{"identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/HostKeyValidator","doc:\/\/SshClient\/documentation\/SshClient\/PasswordPrompt"],"title":"Protocols"},{"identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey","doc:\/\/SshClient\/documentation\/SshClient\/CommandLinePasswordPrompt","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines"],"title":"Structures"},{"identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/SshClientError"],"title":"Enumerations"}],"identifier":{"url":"doc:\/\/SshClient\/documentation\/SshClient","interfaceLanguage":"swift"},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/sshclient"]}],"references":{"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines":{"navigatorTitle":[{"kind":"identifier","text":"RemoteProcessOutputLines"}],"type":"topic","url":"\/documentation\/sshclient\/remoteprocessoutputlines","title":"RemoteProcessOutputLines","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines","role":"symbol","abstract":[{"type":"text","text":"AsyncSequence of lines from stdout and stderr of a remote process."}],"fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"RemoteProcessOutputLines"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient/HostKeyValidator":{"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/HostKeyValidator","title":"HostKeyValidator","kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"protocol"},{"kind":"text","text":" "},{"kind":"identifier","text":"HostKeyValidator"}],"navigatorTitle":[{"kind":"identifier","text":"HostKeyValidator"}],"abstract":[{"type":"text","text":"Protocol for host key validators."}],"type":"topic","url":"\/documentation\/sshclient\/hostkeyvalidator"},"doc://SshClient/documentation/SshClient/RemoteProcess":{"navigatorTitle":[{"kind":"identifier","text":"RemoteProcess"}],"type":"topic","url":"\/documentation\/sshclient\/remoteprocess","title":"RemoteProcess","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess","role":"symbol","abstract":[{"type":"text","text":"A remote process."}],"fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"RemoteProcess"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient/CommandLinePasswordPrompt":{"kind":"symbol","fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"CommandLinePasswordPrompt","kind":"identifier"}],"type":"topic","title":"CommandLinePasswordPrompt","navigatorTitle":[{"text":"CommandLinePasswordPrompt","kind":"identifier"}],"abstract":[{"text":"Command line password prompt.","type":"text"}],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/CommandLinePasswordPrompt","role":"symbol","url":"\/documentation\/sshclient\/commandlinepasswordprompt"},"doc://SshClient/documentation/SshClient/SshClient":{"fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"SshClient"}],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClient","title":"SshClient","kind":"symbol","url":"\/documentation\/sshclient\/sshclient","abstract":[{"text":"SSH client implementation for connecting with an SSH server.","type":"text"}],"type":"topic","role":"symbol","navigatorTitle":[{"kind":"identifier","text":"SshClient"}]},"doc://SshClient/documentation/SshClient/SshConnection":{"navigatorTitle":[{"kind":"identifier","text":"SshConnection"}],"type":"topic","url":"\/documentation\/sshclient\/sshconnection","title":"SshConnection","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshConnection","role":"symbol","abstract":[{"type":"text","text":"SSH connection."}],"fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"SshConnection"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient/AllowAnyHostKey":{"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey","title":"AllowAnyHostKey","kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"AllowAnyHostKey"}],"navigatorTitle":[{"kind":"identifier","text":"AllowAnyHostKey"}],"abstract":[{"type":"text","text":"Host key validator that accepts any key for any host."}],"type":"topic","url":"\/documentation\/sshclient\/allowanyhostkey"},"doc://SshClient/documentation/SshClient":{"type":"topic","url":"\/documentation\/sshclient","title":"SshClient","identifier":"doc:\/\/SshClient\/documentation\/SshClient","role":"collection","abstract":[],"kind":"symbol"},"doc://SshClient/documentation/SshClient/PasswordPrompt":{"kind":"symbol","type":"topic","abstract":[{"type":"text","text":"Protocol for password prompts."}],"title":"PasswordPrompt","url":"\/documentation\/sshclient\/passwordprompt","navigatorTitle":[{"kind":"identifier","text":"PasswordPrompt"}],"role":"symbol","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/PasswordPrompt","fragments":[{"kind":"keyword","text":"protocol"},{"kind":"text","text":" "},{"kind":"identifier","text":"PasswordPrompt"}]},"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines":{"navigatorTitle":[{"kind":"identifier","text":"RemoteProcessSingleChannelOutputLines"}],"type":"topic","url":"\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines","title":"RemoteProcessSingleChannelOutputLines","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines","role":"symbol","abstract":[{"type":"text","text":"AsyncSequence of lines from stdout or stderr of a remote process."}],"fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"RemoteProcessSingleChannelOutputLines"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient/SshClientError":{"navigatorTitle":[{"kind":"identifier","text":"SshClientError"}],"type":"topic","url":"\/documentation\/sshclient\/sshclienterror","title":"SshClientError","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError","role":"symbol","abstract":[{"type":"text","text":"SSH client errors."}],"fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"SshClientError"}],"kind":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SshClient\/documentation\/SshClient"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "SshClient",
+    "modules" : [
+      {
+        "name" : "SshClient"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "SshClient"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The following is a simple example of setting up an SSH connection and executing a remote command:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "let sshConnection = try await SshClient().connect(host: \"10.0.0.1\", username: \"username\")",
+            "let remoteProcess = try await sshConnection.execute(\"ls\")",
+            "for await line in remoteProcess.stdOutLines {",
+            "    print(line)",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "For more details, see: ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClient",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ", ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshConnection",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " and ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines",
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshClient",
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshConnection"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/HostKeyValidator",
+        "doc:\/\/SshClient\/documentation\/SshClient\/PasswordPrompt"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey",
+        "doc:\/\/SshClient\/documentation\/SshClient\/CommandLinePasswordPrompt",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sshclient"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SshClient/documentation/SshClient": {
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/AllowAnyHostKey": {
+  "abstract" : [
+    {
+      "text" : "Host key validator that accepts any key for any host.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AllowAnyHostKey"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AllowAnyHostKey"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AllowAnyHostKey",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/allowanyhostkey"
+},
+"doc://SshClient/documentation/SshClient/CommandLinePasswordPrompt": {
+  "abstract" : [
+    {
+      "text" : "Command line password prompt.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CommandLinePasswordPrompt"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/CommandLinePasswordPrompt",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CommandLinePasswordPrompt"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CommandLinePasswordPrompt",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/commandlinepasswordprompt"
+},
+"doc://SshClient/documentation/SshClient/HostKeyValidator": {
+  "abstract" : [
+    {
+      "text" : "Protocol for host key validators.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HostKeyValidator"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/HostKeyValidator",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HostKeyValidator"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HostKeyValidator",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/hostkeyvalidator"
+},
+"doc://SshClient/documentation/SshClient/PasswordPrompt": {
+  "abstract" : [
+    {
+      "text" : "Protocol for password prompts.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PasswordPrompt"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/PasswordPrompt",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PasswordPrompt"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PasswordPrompt",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/passwordprompt"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcess": {
+  "abstract" : [
+    {
+      "text" : "A remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcess"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcess"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteProcess",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocess"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines": {
+  "abstract" : [
+    {
+      "text" : "AsyncSequence of lines from stdout and stderr of a remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcessOutputLines"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcessOutputLines"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteProcessOutputLines",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines": {
+  "abstract" : [
+    {
+      "text" : "AsyncSequence of lines from stdout or stderr of a remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcessSingleChannelOutputLines"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcessSingleChannelOutputLines"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteProcessSingleChannelOutputLines",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines"
+},
+"doc://SshClient/documentation/SshClient/SshClient": {
+  "abstract" : [
+    {
+      "text" : "SSH client implementation for connecting with an SSH server.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SshClient"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClient",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SshClient"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/SshClientError": {
+  "abstract" : [
+    {
+      "text" : "SSH client errors.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SshClientError"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SshClientError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SshClientError",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror"
+},
+"doc://SshClient/documentation/SshClient/SshConnection": {
+  "abstract" : [
+    {
+      "text" : "SSH connection.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SshConnection"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshConnection",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SshConnection"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SshConnection",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshconnection"
+},
+"https://github.com/apple/swift-nio-ssh": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+  "title" : "swift-nio-ssh",
+  "titleInlineContent" : [
+    {
+      "text" : "swift-nio-ssh",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-nio-ssh"
+}
+}
+}

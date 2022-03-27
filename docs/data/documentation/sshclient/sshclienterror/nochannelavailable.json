@@ -1,1 +1,193 @@
-{"abstract":[{"type":"text","text":"No overview available."}],"variants":[{"paths":["\/documentation\/sshclient\/sshclienterror\/nochannelavailable"],"traits":[{"interfaceLanguage":"swift"}]}],"kind":"symbol","hierarchy":{"paths":[["doc:\/\/SshClient\/documentation\/SshClient","doc:\/\/SshClient\/documentation\/SshClient\/SshClientError"]]},"sections":[],"schemaVersion":{"patch":0,"major":0,"minor":2},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"tokens":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"noChannelAvailable"}],"platforms":["Linux"]}]}],"identifier":{"url":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/noChannelAvailable","interfaceLanguage":"swift"},"metadata":{"fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"noChannelAvailable","kind":"identifier"}],"externalID":"s:9SshClient0aB5ErrorO18noChannelAvailableyA2CmF","symbolKind":"case","roleHeading":"Case","role":"symbol","modules":[{"name":"SshClient"}],"title":"SshClientError.noChannelAvailable"},"references":{"doc://SshClient/documentation/SshClient":{"type":"topic","url":"\/documentation\/sshclient","title":"SshClient","identifier":"doc:\/\/SshClient\/documentation\/SshClient","role":"collection","abstract":[],"kind":"symbol"},"doc://SshClient/documentation/SshClient/SshClientError/noChannelAvailable":{"type":"topic","kind":"symbol","title":"SshClientError.noChannelAvailable","url":"\/documentation\/sshclient\/sshclienterror\/nochannelavailable","role":"symbol","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/noChannelAvailable","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"noChannelAvailable"}],"abstract":[]},"doc://SshClient/documentation/SshClient/SshClientError":{"navigatorTitle":[{"kind":"identifier","text":"SshClientError"}],"type":"topic","url":"\/documentation\/sshclient\/sshclienterror","title":"SshClientError","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError","role":"symbol","abstract":[{"type":"text","text":"SSH client errors."}],"fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"SshClientError"}],"kind":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SshClient\/documentation\/SshClient",
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/noChannelAvailable"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9SshClient0aB5ErrorO18noChannelAvailableyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "noChannelAvailable"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SshClient"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "SshClientError.noChannelAvailable"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "noChannelAvailable"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sshclient\/sshclienterror\/nochannelavailable"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SshClient/documentation/SshClient": {
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/SshClientError": {
+  "abstract" : [
+    {
+      "text" : "SSH client errors.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SshClientError"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SshClientError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SshClientError",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror"
+},
+"doc://SshClient/documentation/SshClient/SshClientError/noChannelAvailable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "noChannelAvailable"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/noChannelAvailable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SshClientError.noChannelAvailable",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror\/nochannelavailable"
+},
+"https://github.com/apple/swift-nio-ssh": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+  "title" : "swift-nio-ssh",
+  "titleInlineContent" : [
+    {
+      "text" : "swift-nio-ssh",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-nio-ssh"
+}
+}
+}

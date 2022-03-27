@@ -1,1 +1,499 @@
-{"primaryContentSections":[{"declarations":[{"tokens":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"compactMap"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"ElementOfResult"},{"kind":"text","text":">("},{"kind":"externalParam","text":"_"},{"kind":"text","text":" "},{"kind":"internalParam","text":"transform"},{"kind":"text","text":": "},{"kind":"keyword","text":"@escaping"},{"kind":"text","text":" ("},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"ElementOfResult"},{"kind":"text","text":"?) -> "},{"kind":"typeIdentifier","text":"AsyncThrowingCompactMapSequence","preciseIdentifier":"s:12_Concurrency31AsyncThrowingCompactMapSequenceV"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":", "},{"kind":"typeIdentifier","text":"ElementOfResult"},{"kind":"text","text":">"}],"platforms":["Linux"],"languages":["swift"]}],"kind":"declarations"}],"kind":"symbol","hierarchy":{"paths":[["doc:\/\/SshClient\/documentation\/SshClient","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/AsyncSequence-Implementations"]]},"abstract":[{"type":"text","text":"Inherited from "},{"type":"codeVoice","code":"AsyncSequence.compactMap(_:)"},{"type":"text","text":"."}],"metadata":{"externalID":"s:Sci12_ConcurrencyE10compactMapyAA020AsyncThrowingCompactC8SequenceVyxqd__Gqd__Sg7ElementQzYaKclF::SYNTHESIZED::s:9SshClient37RemoteProcessSingleChannelOutputLinesV","platforms":[{"name":"iOS","introducedAt":"13.0","unavailable":false,"beta":false,"deprecated":false},{"name":"macOS","introducedAt":"10.15","unavailable":false,"beta":false,"deprecated":false},{"name":"tvOS","introducedAt":"13.0","unavailable":false,"beta":false,"deprecated":false},{"name":"watchOS","introducedAt":"6.0","unavailable":false,"beta":false,"deprecated":false}],"extendedModule":"_Concurrency","modules":[{"name":"SshClient"}],"role":"symbol","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"compactMap"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"ElementOfResult"},{"kind":"text","text":">(("},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"text":" ","kind":"text"},{"text":"throws","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"ElementOfResult","kind":"typeIdentifier"},{"text":"?) -> ","kind":"text"},{"text":"AsyncThrowingCompactMapSequence","kind":"typeIdentifier","preciseIdentifier":"s:12_Concurrency31AsyncThrowingCompactMapSequenceV"},{"text":"<","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"ElementOfResult","kind":"typeIdentifier"},{"text":">","kind":"text"}],"roleHeading":"Instance Method","title":"compactMap(_:)","symbolKind":"method"},"variants":[{"paths":["\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines\/compactmap(_:)-1d5vp"],"traits":[{"interfaceLanguage":"swift"}]}],"schemaVersion":{"major":0,"patch":0,"minor":2},"sections":[],"identifier":{"url":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/compactMap(_:)-1d5vp","interfaceLanguage":"swift"},"references":{"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines/AsyncSequence-Implementations":{"type":"topic","url":"\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines\/asyncsequence-implementations","title":"AsyncSequence Implementations","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/AsyncSequence-Implementations","role":"collectionGroup","abstract":[],"kind":"article"},"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines":{"navigatorTitle":[{"kind":"identifier","text":"RemoteProcessSingleChannelOutputLines"}],"type":"topic","url":"\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines","title":"RemoteProcessSingleChannelOutputLines","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines","role":"symbol","abstract":[{"type":"text","text":"AsyncSequence of lines from stdout or stderr of a remote process."}],"fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"RemoteProcessSingleChannelOutputLines"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines/compactMap(_:)-1d5vp":{"title":"compactMap(_:)","role":"symbol","url":"\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines\/compactmap(_:)-1d5vp","abstract":[],"kind":"symbol","type":"topic","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"compactMap","kind":"identifier"},{"text":"<","kind":"text"},{"kind":"genericParameter","text":"ElementOfResult"},{"kind":"text","text":">(("},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"ElementOfResult"},{"kind":"text","text":"?) -> "},{"kind":"typeIdentifier","text":"AsyncThrowingCompactMapSequence","preciseIdentifier":"s:12_Concurrency31AsyncThrowingCompactMapSequenceV"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"Self"},{"text":", ","kind":"text"},{"text":"ElementOfResult","kind":"typeIdentifier"},{"text":">","kind":"text"}],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/compactMap(_:)-1d5vp"},"doc://SshClient/documentation/SshClient":{"type":"topic","url":"\/documentation\/sshclient","title":"SshClient","identifier":"doc:\/\/SshClient\/documentation\/SshClient","role":"collection","abstract":[],"kind":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "AsyncSequence.compactMap(_:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SshClient\/documentation\/SshClient",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/AsyncSequence-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/compactMap(_:)-1d5vp"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "_Concurrency",
+    "externalID" : "s:Sci12_ConcurrencyE10compactMapyAA020AsyncThrowingCompactC8SequenceVyxqd__Gqd__Sg7ElementQzYaKclF::SYNTHESIZED::s:9SshClient37RemoteProcessSingleChannelOutputLinesV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "compactMap"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "ElementOfResult"
+      },
+      {
+        "kind" : "text",
+        "text" : ">(("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Element"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "ElementOfResult"
+      },
+      {
+        "kind" : "text",
+        "text" : "?) -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12_Concurrency31AsyncThrowingCompactMapSequenceV",
+        "text" : "AsyncThrowingCompactMapSequence"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "ElementOfResult"
+      },
+      {
+        "kind" : "text",
+        "text" : ">"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SshClient"
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.15",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "6.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "compactMap(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "compactMap"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "ElementOfResult"
+            },
+            {
+              "kind" : "text",
+              "text" : ">("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "transform"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "@escaping"
+            },
+            {
+              "kind" : "text",
+              "text" : " ("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Element"
+            },
+            {
+              "kind" : "text",
+              "text" : ") "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "async"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "ElementOfResult"
+            },
+            {
+              "kind" : "text",
+              "text" : "?) -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12_Concurrency31AsyncThrowingCompactMapSequenceV",
+              "text" : "AsyncThrowingCompactMapSequence"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "ElementOfResult"
+            },
+            {
+              "kind" : "text",
+              "text" : ">"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines\/compactmap(_:)-1d5vp"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SshClient/documentation/SshClient": {
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines": {
+  "abstract" : [
+    {
+      "text" : "AsyncSequence of lines from stdout or stderr of a remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcessSingleChannelOutputLines"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcessSingleChannelOutputLines"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteProcessSingleChannelOutputLines",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines/AsyncSequence-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/AsyncSequence-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "AsyncSequence Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines\/asyncsequence-implementations"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessSingleChannelOutputLines/compactMap(_:)-1d5vp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "compactMap"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "ElementOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ">(("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "ElementOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12_Concurrency31AsyncThrowingCompactMapSequenceV",
+      "text" : "AsyncThrowingCompactMapSequence"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "ElementOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessSingleChannelOutputLines\/compactMap(_:)-1d5vp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "compactMap(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocesssinglechanneloutputlines\/compactmap(_:)-1d5vp"
+},
+"https://github.com/apple/swift-nio-ssh": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+  "title" : "swift-nio-ssh",
+  "titleInlineContent" : [
+    {
+      "text" : "swift-nio-ssh",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-nio-ssh"
+}
+}
+}

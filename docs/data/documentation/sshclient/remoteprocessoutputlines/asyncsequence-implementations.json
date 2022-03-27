@@ -1,1 +1,1902 @@
-{"abstract":[{"type":"text","text":"No overview available."}],"metadata":{"modules":[{"name":"SshClient"}],"title":"AsyncSequence Implementations","role":"collectionGroup"},"sections":[],"topicSections":[{"title":"Instance Methods","generated":true,"identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/allSatisfy(_:)","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/compactMap(_:)-2zk98","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/compactMap(_:)-6vh2k","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/contains(where:)","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/drop(while:)","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/dropFirst(_:)","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/filter(_:)","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/first(where:)","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/flatMap(_:)-6k6wj","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/flatMap(_:)-6yzy9","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/map(_:)-1kyz7","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/map(_:)-4c1c0","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/max(by:)","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/min(by:)","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/prefix(_:)","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/prefix(while:)","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/reduce(_:_:)","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/reduce(into:_:)"]}],"identifier":{"url":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/AsyncSequence-Implementations","interfaceLanguage":"swift"},"schemaVersion":{"minor":2,"major":0,"patch":0},"kind":"article","hierarchy":{"paths":[["doc:\/\/SshClient\/documentation\/SshClient","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines"]]},"variants":[{"paths":["\/documentation\/sshclient\/remoteprocessoutputlines\/asyncsequence-implementations"],"traits":[{"interfaceLanguage":"swift"}]}],"references":{"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/map(_:)-4c1c0":{"type":"topic","abstract":[],"title":"map(_:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"text":"map","kind":"identifier"},{"text":"<","kind":"text"},{"text":"Transformed","kind":"genericParameter"},{"kind":"text","text":">(("},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"text":"Element","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"Transformed","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"AsyncMapSequence","kind":"typeIdentifier","preciseIdentifier":"s:12_Concurrency16AsyncMapSequenceV"},{"text":"<","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"Transformed","kind":"typeIdentifier"},{"text":">","kind":"text"}],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/map(_:)-4c1c0","kind":"symbol","role":"symbol","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/map(_:)-4c1c0"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/flatMap(_:)-6k6wj":{"type":"topic","abstract":[],"title":"flatMap(_:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"flatMap"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"SegmentOfResult"},{"text":">((","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Element","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"throws","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"SegmentOfResult","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"AsyncThrowingFlatMapSequence","preciseIdentifier":"s:12_Concurrency28AsyncThrowingFlatMapSequenceV","kind":"typeIdentifier"},{"text":"<","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"SegmentOfResult","kind":"typeIdentifier"},{"text":">","kind":"text"}],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/flatMap(_:)-6k6wj","kind":"symbol","role":"symbol","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/flatmap(_:)-6k6wj"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/compactMap(_:)-2zk98":{"abstract":[],"fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"compactMap"},{"text":"<","kind":"text"},{"text":"ElementOfResult","kind":"genericParameter"},{"text":">((","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Element","kind":"typeIdentifier"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"ElementOfResult"},{"kind":"text","text":"?) -> "},{"kind":"typeIdentifier","text":"AsyncCompactMapSequence","preciseIdentifier":"s:12_Concurrency23AsyncCompactMapSequenceV"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":", "},{"kind":"typeIdentifier","text":"ElementOfResult"},{"kind":"text","text":">"}],"kind":"symbol","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/compactmap(_:)-2zk98","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/compactMap(_:)-2zk98","role":"symbol","type":"topic","title":"compactMap(_:)"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/prefix(while:)":{"role":"symbol","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/prefix(while:)","abstract":[],"title":"prefix(while:)","type":"topic","kind":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"prefix","kind":"identifier"},{"kind":"text","text":"("},{"kind":"externalParam","text":"while"},{"kind":"text","text":": ("},{"text":"Self","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Element","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"rethrows","kind":"keyword"},{"text":" -> ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:12_Concurrency24AsyncPrefixWhileSequenceV","text":"AsyncPrefixWhileSequence"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":">"}],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/prefix(while:)"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/prefix(_:)":{"role":"symbol","abstract":[],"kind":"symbol","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"text":"prefix","kind":"identifier"},{"text":"(","kind":"text"},{"text":"Int","preciseIdentifier":"s:Si","kind":"typeIdentifier"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"AsyncPrefixSequence","preciseIdentifier":"s:12_Concurrency19AsyncPrefixSequenceV"},{"kind":"text","text":"<"},{"text":"Self","kind":"typeIdentifier"},{"text":">","kind":"text"}],"title":"prefix(_:)","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/prefix(_:)","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/prefix(_:)","type":"topic"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/max(by:)":{"role":"symbol","abstract":[],"kind":"symbol","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"max"},{"kind":"text","text":"("},{"kind":"externalParam","text":"by"},{"text":": (","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Element","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Element","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"throws","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"rethrows","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Element","kind":"typeIdentifier"},{"text":"?","kind":"text"}],"title":"max(by:)","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/max(by:)","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/max(by:)","type":"topic"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/filter(_:)":{"type":"topic","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/filter(_:)","abstract":[],"kind":"symbol","role":"symbol","title":"filter(_:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"filter"},{"kind":"text","text":"(("},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"text":"Element","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","preciseIdentifier":"s:Sb","text":"Bool"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"AsyncFilterSequence","preciseIdentifier":"s:12_Concurrency19AsyncFilterSequenceV"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"Self"},{"text":">","kind":"text"}],"url":"\/documentation\/sshclient\/remoteprocessoutputlines\/filter(_:)"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/allSatisfy(_:)":{"kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"text":"allSatisfy","kind":"identifier"},{"text":"((","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Element","kind":"typeIdentifier"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"rethrows"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"}],"type":"topic","title":"allSatisfy(_:)","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/allSatisfy(_:)","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/allsatisfy(_:)","abstract":[]},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/first(where:)":{"kind":"symbol","role":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"first","kind":"identifier"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"where"},{"kind":"text","text":": ("},{"kind":"typeIdentifier","text":"Self"},{"text":".","kind":"text"},{"text":"Element","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"throws","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"rethrows","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Element","kind":"typeIdentifier"},{"text":"?","kind":"text"}],"type":"topic","title":"first(where:)","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/first(where:)","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/first(where:)","abstract":[]},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines":{"navigatorTitle":[{"kind":"identifier","text":"RemoteProcessOutputLines"}],"type":"topic","url":"\/documentation\/sshclient\/remoteprocessoutputlines","title":"RemoteProcessOutputLines","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines","role":"symbol","abstract":[{"type":"text","text":"AsyncSequence of lines from stdout and stderr of a remote process."}],"fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"RemoteProcessOutputLines"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/min(by:)":{"kind":"symbol","abstract":[],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/min(by:)","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/min(by:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"text":"min","kind":"identifier"},{"text":"(","kind":"text"},{"text":"by","kind":"externalParam"},{"kind":"text","text":": ("},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":", "},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"rethrows"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":"?"}],"type":"topic","title":"min(by:)","role":"symbol"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/reduce(_:_:)":{"role":"symbol","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/reduce(_:_:)","kind":"symbol","type":"topic","abstract":[],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/reduce(_:_:)","fragments":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"reduce"},{"kind":"text","text":"<"},{"text":"Result","kind":"genericParameter"},{"text":">(","kind":"text"},{"text":"Result","kind":"typeIdentifier"},{"text":", (","kind":"text"},{"text":"Result","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Element","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"throws","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"Result","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"rethrows","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"Result","kind":"typeIdentifier"}],"title":"reduce(_:_:)"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/compactMap(_:)-6vh2k":{"role":"symbol","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/compactmap(_:)-6vh2k","kind":"symbol","type":"topic","abstract":[],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/compactMap(_:)-6vh2k","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"text":"compactMap","kind":"identifier"},{"text":"<","kind":"text"},{"text":"ElementOfResult","kind":"genericParameter"},{"text":">((","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"ElementOfResult"},{"kind":"text","text":"?) -> "},{"kind":"typeIdentifier","text":"AsyncThrowingCompactMapSequence","preciseIdentifier":"s:12_Concurrency31AsyncThrowingCompactMapSequenceV"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":", "},{"kind":"typeIdentifier","text":"ElementOfResult"},{"kind":"text","text":">"}],"title":"compactMap(_:)"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/reduce(into:_:)":{"type":"topic","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/reduce(into:_:)","abstract":[],"kind":"symbol","role":"symbol","title":"reduce(into:_:)","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"text":"reduce","kind":"identifier"},{"text":"<","kind":"text"},{"kind":"genericParameter","text":"Result"},{"kind":"text","text":">("},{"kind":"externalParam","text":"into"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Result"},{"kind":"text","text":", ("},{"kind":"keyword","text":"inout"},{"kind":"text","text":" "},{"kind":"typeIdentifier","text":"Result"},{"kind":"text","text":", "},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","preciseIdentifier":"s:s4Voida","text":"Void"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"rethrows"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"Result"}],"url":"\/documentation\/sshclient\/remoteprocessoutputlines\/reduce(into:_:)"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/drop(while:)":{"kind":"symbol","type":"topic","title":"drop(while:)","abstract":[],"role":"symbol","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/drop(while:)","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/drop(while:)","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"drop","kind":"identifier"},{"text":"(","kind":"text"},{"text":"while","kind":"externalParam"},{"text":": (","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"AsyncDropWhileSequence","preciseIdentifier":"s:12_Concurrency22AsyncDropWhileSequenceV"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":">"}]},"doc://SshClient/documentation/SshClient":{"type":"topic","url":"\/documentation\/sshclient","title":"SshClient","identifier":"doc:\/\/SshClient\/documentation\/SshClient","role":"collection","abstract":[],"kind":"symbol"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/dropFirst(_:)":{"role":"symbol","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/dropFirst(_:)","type":"topic","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/dropfirst(_:)","title":"dropFirst(_:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"dropFirst"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"Int","preciseIdentifier":"s:Si"},{"text":") -> ","kind":"text"},{"text":"AsyncDropFirstSequence","kind":"typeIdentifier","preciseIdentifier":"s:12_Concurrency22AsyncDropFirstSequenceV"},{"text":"<","kind":"text"},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":">"}],"abstract":[],"kind":"symbol"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/map(_:)-1kyz7":{"abstract":[],"fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"map"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"Transformed"},{"kind":"text","text":">(("},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":") "},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"throws","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"Transformed","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"preciseIdentifier":"s:12_Concurrency24AsyncThrowingMapSequenceV","text":"AsyncThrowingMapSequence","kind":"typeIdentifier"},{"text":"<","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"kind":"typeIdentifier","text":"Transformed"},{"kind":"text","text":">"}],"url":"\/documentation\/sshclient\/remoteprocessoutputlines\/map(_:)-1kyz7","kind":"symbol","title":"map(_:)","role":"symbol","type":"topic","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/map(_:)-1kyz7"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/contains(where:)":{"title":"contains(where:)","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/contains(where:)","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"contains","kind":"identifier"},{"kind":"text","text":"("},{"kind":"externalParam","text":"where"},{"kind":"text","text":": ("},{"text":"Self","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Element","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"throws","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"rethrows","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"}],"kind":"symbol","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/contains(where:)","role":"symbol","type":"topic","abstract":[]},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/flatMap(_:)-6yzy9":{"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/flatMap(_:)-6yzy9","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/flatmap(_:)-6yzy9","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"flatMap"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"SegmentOfResult"},{"text":">((","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":".","kind":"text"},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"text":" -> ","kind":"text"},{"text":"SegmentOfResult","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"AsyncFlatMapSequence","kind":"typeIdentifier","preciseIdentifier":"s:12_Concurrency20AsyncFlatMapSequenceV"},{"text":"<","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"kind":"typeIdentifier","text":"SegmentOfResult"},{"kind":"text","text":">"}],"type":"topic","abstract":[],"title":"flatMap(_:)","role":"symbol","kind":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SshClient\/documentation\/SshClient",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/AsyncSequence-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "SshClient"
+      }
+    ],
+    "role" : "collectionGroup",
+    "title" : "AsyncSequence Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/allSatisfy(_:)",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/compactMap(_:)-2zk98",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/compactMap(_:)-6vh2k",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/contains(where:)",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/drop(while:)",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/dropFirst(_:)",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/filter(_:)",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/first(where:)",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/flatMap(_:)-6k6wj",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/flatMap(_:)-6yzy9",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/map(_:)-1kyz7",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/map(_:)-4c1c0",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/max(by:)",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/min(by:)",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/prefix(_:)",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/prefix(while:)",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/reduce(_:_:)",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/reduce(into:_:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sshclient\/remoteprocessoutputlines\/asyncsequence-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SshClient/documentation/SshClient": {
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines": {
+  "abstract" : [
+    {
+      "text" : "AsyncSequence of lines from stdout and stderr of a remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcessOutputLines"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcessOutputLines"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteProcessOutputLines",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/allSatisfy(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "allSatisfy"
+    },
+    {
+      "kind" : "text",
+      "text" : "(("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "rethrows"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/allSatisfy(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "allSatisfy(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/allsatisfy(_:)"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/compactMap(_:)-2zk98": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "compactMap"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "ElementOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ">(("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "ElementOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12_Concurrency23AsyncCompactMapSequenceV",
+      "text" : "AsyncCompactMapSequence"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "ElementOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/compactMap(_:)-2zk98",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "compactMap(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/compactmap(_:)-2zk98"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/compactMap(_:)-6vh2k": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "compactMap"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "ElementOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ">(("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "ElementOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12_Concurrency31AsyncThrowingCompactMapSequenceV",
+      "text" : "AsyncThrowingCompactMapSequence"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "ElementOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/compactMap(_:)-6vh2k",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "compactMap(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/compactmap(_:)-6vh2k"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/contains(where:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contains"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "where"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "rethrows"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/contains(where:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contains(where:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/contains(where:)"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/drop(while:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "drop"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "while"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12_Concurrency22AsyncDropWhileSequenceV",
+      "text" : "AsyncDropWhileSequence"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/drop(while:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "drop(while:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/drop(while:)"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/dropFirst(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dropFirst"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12_Concurrency22AsyncDropFirstSequenceV",
+      "text" : "AsyncDropFirstSequence"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/dropFirst(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dropFirst(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/dropfirst(_:)"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/filter(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "filter"
+    },
+    {
+      "kind" : "text",
+      "text" : "(("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12_Concurrency19AsyncFilterSequenceV",
+      "text" : "AsyncFilterSequence"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/filter(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "filter(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/filter(_:)"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/first(where:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "first"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "where"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "rethrows"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/first(where:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "first(where:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/first(where:)"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/flatMap(_:)-6k6wj": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "flatMap"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "SegmentOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ">(("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "SegmentOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12_Concurrency28AsyncThrowingFlatMapSequenceV",
+      "text" : "AsyncThrowingFlatMapSequence"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "SegmentOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/flatMap(_:)-6k6wj",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "flatMap(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/flatmap(_:)-6k6wj"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/flatMap(_:)-6yzy9": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "flatMap"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "SegmentOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ">(("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "SegmentOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12_Concurrency20AsyncFlatMapSequenceV",
+      "text" : "AsyncFlatMapSequence"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "SegmentOfResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/flatMap(_:)-6yzy9",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "flatMap(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/flatmap(_:)-6yzy9"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/map(_:)-1kyz7": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "map"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Transformed"
+    },
+    {
+      "kind" : "text",
+      "text" : ">(("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Transformed"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12_Concurrency24AsyncThrowingMapSequenceV",
+      "text" : "AsyncThrowingMapSequence"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Transformed"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/map(_:)-1kyz7",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "map(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/map(_:)-1kyz7"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/map(_:)-4c1c0": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "map"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Transformed"
+    },
+    {
+      "kind" : "text",
+      "text" : ">(("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Transformed"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12_Concurrency16AsyncMapSequenceV",
+      "text" : "AsyncMapSequence"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Transformed"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/map(_:)-4c1c0",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "map(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/map(_:)-4c1c0"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/max(by:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "max"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "by"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "rethrows"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/max(by:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "max(by:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/max(by:)"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/min(by:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "min"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "by"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "rethrows"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/min(by:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "min(by:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/min(by:)"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/prefix(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "prefix"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12_Concurrency19AsyncPrefixSequenceV",
+      "text" : "AsyncPrefixSequence"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/prefix(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "prefix(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/prefix(_:)"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/prefix(while:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "prefix"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "while"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "rethrows"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12_Concurrency24AsyncPrefixWhileSequenceV",
+      "text" : "AsyncPrefixWhileSequence"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/prefix(while:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "prefix(while:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/prefix(while:)"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/reduce(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "reduce"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : ", ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "rethrows"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Result"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/reduce(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "reduce(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/reduce(_:_:)"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/reduce(into:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "reduce"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "into"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : ", ("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "inout"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Result"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "rethrows"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Result"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/reduce(into:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "reduce(into:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/reduce(into:_:)"
+},
+"https://github.com/apple/swift-nio-ssh": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+  "title" : "swift-nio-ssh",
+  "titleInlineContent" : [
+    {
+      "text" : "swift-nio-ssh",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-nio-ssh"
+}
+}
+}

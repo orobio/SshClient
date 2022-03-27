@@ -1,1 +1,289 @@
-{"relationshipsSections":[{"kind":"relationships","identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey"],"type":"conformingTypes","title":"Conforming Types"}],"schemaVersion":{"minor":2,"major":0,"patch":0},"metadata":{"roleHeading":"Protocol","navigatorTitle":[{"text":"HostKeyValidator","kind":"identifier"}],"modules":[{"name":"SshClient"}],"symbolKind":"protocol","role":"symbol","externalID":"s:9SshClient16HostKeyValidatorP","fragments":[{"text":"protocol","kind":"keyword"},{"text":" ","kind":"text"},{"text":"HostKeyValidator","kind":"identifier"}],"title":"HostKeyValidator"},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/sshclient\/hostkeyvalidator"]}],"topicSections":[{"identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/HostKeyValidator\/isValidKey(_:for:)"],"title":"Instance Methods"}],"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"tokens":[{"kind":"keyword","text":"protocol"},{"kind":"text","text":" "},{"kind":"identifier","text":"HostKeyValidator"}],"platforms":["Linux"]}]}],"hierarchy":{"paths":[["doc:\/\/SshClient\/documentation\/SshClient"]]},"kind":"symbol","abstract":[{"type":"text","text":"Protocol for host key validators."}],"sections":[],"identifier":{"url":"doc:\/\/SshClient\/documentation\/SshClient\/HostKeyValidator","interfaceLanguage":"swift"},"references":{"doc://SshClient/documentation/SshClient/HostKeyValidator/isValidKey(_:for:)":{"role":"symbol","title":"isValidKey(_:for:)","required":true,"fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"isValidKey"},{"text":"(","kind":"text"},{"preciseIdentifier":"s:6NIOSSH15NIOSSHPublicKeyV","text":"NIOSSHPublicKey","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"kind":"externalParam","text":"for"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"}],"url":"\/documentation\/sshclient\/hostkeyvalidator\/isvalidkey(_:for:)","abstract":[{"text":"Verify a host key.","type":"text"}],"kind":"symbol","type":"topic","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/HostKeyValidator\/isValidKey(_:for:)"},"doc://SshClient/documentation/SshClient/AllowAnyHostKey":{"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey","title":"AllowAnyHostKey","kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"AllowAnyHostKey"}],"navigatorTitle":[{"kind":"identifier","text":"AllowAnyHostKey"}],"abstract":[{"type":"text","text":"Host key validator that accepts any key for any host."}],"type":"topic","url":"\/documentation\/sshclient\/allowanyhostkey"},"doc://SshClient/documentation/SshClient":{"type":"topic","url":"\/documentation\/sshclient","title":"SshClient","identifier":"doc:\/\/SshClient\/documentation\/SshClient","role":"collection","abstract":[],"kind":"symbol"},"doc://SshClient/documentation/SshClient/HostKeyValidator":{"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/HostKeyValidator","title":"HostKeyValidator","kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"protocol"},{"kind":"text","text":" "},{"kind":"identifier","text":"HostKeyValidator"}],"navigatorTitle":[{"kind":"identifier","text":"HostKeyValidator"}],"abstract":[{"type":"text","text":"Protocol for host key validators."}],"type":"topic","url":"\/documentation\/sshclient\/hostkeyvalidator"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Protocol for host key validators.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SshClient\/documentation\/SshClient"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SshClient\/documentation\/SshClient\/HostKeyValidator"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9SshClient16HostKeyValidatorP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "HostKeyValidator"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SshClient"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "HostKeyValidator"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "HostKeyValidator"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "HostKeyValidator"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforming Types",
+      "type" : "conformingTypes"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/HostKeyValidator\/isValidKey(_:for:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sshclient\/hostkeyvalidator"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SshClient/documentation/SshClient": {
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/AllowAnyHostKey": {
+  "abstract" : [
+    {
+      "text" : "Host key validator that accepts any key for any host.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AllowAnyHostKey"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AllowAnyHostKey"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AllowAnyHostKey",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/allowanyhostkey"
+},
+"doc://SshClient/documentation/SshClient/HostKeyValidator": {
+  "abstract" : [
+    {
+      "text" : "Protocol for host key validators.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HostKeyValidator"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/HostKeyValidator",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HostKeyValidator"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HostKeyValidator",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/hostkeyvalidator"
+},
+"doc://SshClient/documentation/SshClient/HostKeyValidator/isValidKey(_:for:)": {
+  "abstract" : [
+    {
+      "text" : "Verify a host key.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isValidKey"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6NIOSSH15NIOSSHPublicKeyV",
+      "text" : "NIOSSHPublicKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/HostKeyValidator\/isValidKey(_:for:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "isValidKey(_:for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/hostkeyvalidator\/isvalidkey(_:for:)"
+},
+"https://github.com/apple/swift-nio-ssh": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+  "title" : "swift-nio-ssh",
+  "titleInlineContent" : [
+    {
+      "text" : "swift-nio-ssh",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-nio-ssh"
+}
+}
+}

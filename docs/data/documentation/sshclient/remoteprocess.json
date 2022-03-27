@@ -1,1 +1,491 @@
-{"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/sshclient\/remoteprocess"]}],"kind":"symbol","hierarchy":{"paths":[["doc:\/\/SshClient\/documentation\/SshClient"]]},"metadata":{"symbolKind":"class","title":"RemoteProcess","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"RemoteProcess","kind":"identifier"}],"navigatorTitle":[{"text":"RemoteProcess","kind":"identifier"}],"modules":[{"name":"SshClient"}],"roleHeading":"Class","externalID":"s:9SshClient13RemoteProcessC","role":"symbol"},"schemaVersion":{"patch":0,"major":0,"minor":2},"topicSections":[{"title":"Instance Properties","identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/exitCode","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdErrLines","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdOutAndStdErrLines","doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdOutLines"]}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess"},"primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"kind":"keyword","text":"final"},{"kind":"text","text":" "},{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"RemoteProcess"}],"platforms":["Linux"]}],"kind":"declarations"},{"content":[{"anchor":"overview","level":2,"type":"heading","text":"Overview"},{"type":"paragraph","inlineContent":[{"text":"A remote process can be created by executing a command","type":"text"},{"text":" ","type":"text"},{"text":"remotely using an ","type":"text"},{"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshConnection","isActive":true,"type":"reference"},{"text":".","type":"text"}]},{"type":"paragraph","inlineContent":[{"text":"The stdout and\/or stderr output lines of the remote process can","type":"text"},{"text":" ","type":"text"},{"text":"be obtained from one of: ","type":"text"},{"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdOutLines","type":"reference","isActive":true},{"text":", ","type":"text"},{"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdErrLines","type":"reference","isActive":true},{"text":" or","type":"text"},{"text":" ","type":"text"},{"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdOutAndStdErrLines","type":"reference","isActive":true}]},{"type":"paragraph","inlineContent":[{"type":"strong","inlineContent":[{"text":"Note:","type":"text"}]},{"text":" No more than one of those properties can be used per process.","type":"text"}]},{"type":"paragraph","inlineContent":[{"type":"text","text":"Example usage:"}]},{"code":["for await line in remoteProcess.stdOutLines {","    print(line)","}"],"syntax":"swift","type":"codeListing"}],"kind":"content"}],"sections":[],"abstract":[{"type":"text","text":"A remote process."}],"references":{"doc://SshClient/documentation/SshClient/SshConnection":{"navigatorTitle":[{"kind":"identifier","text":"SshConnection"}],"type":"topic","url":"\/documentation\/sshclient\/sshconnection","title":"SshConnection","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshConnection","role":"symbol","abstract":[{"type":"text","text":"SSH connection."}],"fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"SshConnection"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient":{"type":"topic","url":"\/documentation\/sshclient","title":"SshClient","identifier":"doc:\/\/SshClient\/documentation\/SshClient","role":"collection","abstract":[],"kind":"symbol"},"doc://SshClient/documentation/SshClient/RemoteProcess/exitCode":{"kind":"symbol","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"exitCode","kind":"identifier"},{"text":": ","kind":"text"},{"text":"Int","preciseIdentifier":"s:Si","kind":"typeIdentifier"}],"url":"\/documentation\/sshclient\/remoteprocess\/exitcode","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/exitCode","role":"symbol","type":"topic","title":"exitCode","abstract":[{"type":"text","text":"Exit code of the remote process."}]},"doc://SshClient/documentation/SshClient/RemoteProcess/stdOutAndStdErrLines":{"fragments":[{"kind":"keyword","text":"var"},{"text":" ","kind":"text"},{"text":"stdOutAndStdErrLines","kind":"identifier"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"RemoteProcessOutputLines","preciseIdentifier":"s:9SshClient24RemoteProcessOutputLinesC"}],"abstract":[{"type":"text","text":"An AsyncSequence with lines from stdout and stderr of the remote process."}],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdOutAndStdErrLines","title":"stdOutAndStdErrLines","role":"symbol","kind":"symbol","url":"\/documentation\/sshclient\/remoteprocess\/stdoutandstderrlines","type":"topic"},"doc://SshClient/documentation/SshClient/RemoteProcess/stdErrLines":{"type":"topic","kind":"symbol","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdErrLines","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"stdErrLines","kind":"identifier"},{"text":": ","kind":"text"},{"text":"RemoteProcessSingleChannelOutputLines","kind":"typeIdentifier","preciseIdentifier":"s:9SshClient37RemoteProcessSingleChannelOutputLinesV"}],"role":"symbol","title":"stdErrLines","abstract":[{"text":"An AsyncSequence with lines from stderr of the remote process.","type":"text"}],"url":"\/documentation\/sshclient\/remoteprocess\/stderrlines"},"doc://SshClient/documentation/SshClient/RemoteProcess":{"navigatorTitle":[{"kind":"identifier","text":"RemoteProcess"}],"type":"topic","url":"\/documentation\/sshclient\/remoteprocess","title":"RemoteProcess","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess","role":"symbol","abstract":[{"type":"text","text":"A remote process."}],"fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"RemoteProcess"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient/RemoteProcess/stdOutLines":{"title":"stdOutLines","abstract":[{"text":"An AsyncSequence with lines from stdout of the remote process.","type":"text"}],"kind":"symbol","type":"topic","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdOutLines","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"stdOutLines"},{"text":": ","kind":"text"},{"text":"RemoteProcessSingleChannelOutputLines","preciseIdentifier":"s:9SshClient37RemoteProcessSingleChannelOutputLinesV","kind":"typeIdentifier"}],"role":"symbol","url":"\/documentation\/sshclient\/remoteprocess\/stdoutlines"}}}
+{
+  "abstract" : [
+    {
+      "text" : "A remote process.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SshClient\/documentation\/SshClient"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9SshClient13RemoteProcessC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "RemoteProcess"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SshClient"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "RemoteProcess"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "RemoteProcess"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "RemoteProcess"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A remote process can be created by executing a command",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "remotely using an ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshConnection",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The stdout and\/or stderr output lines of the remote process can",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "be obtained from one of: ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdOutLines",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ", ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdErrLines",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " or",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdOutAndStdErrLines",
+              "isActive" : true,
+              "type" : "reference"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Note:",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            },
+            {
+              "text" : " No more than one of those properties can be used per process.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Example usage:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "for await line in remoteProcess.stdOutLines {",
+            "    print(line)",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/exitCode",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdErrLines",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdOutAndStdErrLines",
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdOutLines"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sshclient\/remoteprocess"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SshClient/documentation/SshClient": {
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcess": {
+  "abstract" : [
+    {
+      "text" : "A remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcess"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcess"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteProcess",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocess"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcess/exitCode": {
+  "abstract" : [
+    {
+      "text" : "Exit code of the remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "exitCode"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/exitCode",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "exitCode",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocess\/exitcode"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcess/stdErrLines": {
+  "abstract" : [
+    {
+      "text" : "An AsyncSequence with lines from stderr of the remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stdErrLines"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9SshClient37RemoteProcessSingleChannelOutputLinesV",
+      "text" : "RemoteProcessSingleChannelOutputLines"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdErrLines",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stdErrLines",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocess\/stderrlines"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcess/stdOutAndStdErrLines": {
+  "abstract" : [
+    {
+      "text" : "An AsyncSequence with lines from stdout and stderr of the remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stdOutAndStdErrLines"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9SshClient24RemoteProcessOutputLinesC",
+      "text" : "RemoteProcessOutputLines"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdOutAndStdErrLines",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stdOutAndStdErrLines",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocess\/stdoutandstderrlines"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcess/stdOutLines": {
+  "abstract" : [
+    {
+      "text" : "An AsyncSequence with lines from stdout of the remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stdOutLines"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9SshClient37RemoteProcessSingleChannelOutputLinesV",
+      "text" : "RemoteProcessSingleChannelOutputLines"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess\/stdOutLines",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stdOutLines",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocess\/stdoutlines"
+},
+"doc://SshClient/documentation/SshClient/SshConnection": {
+  "abstract" : [
+    {
+      "text" : "SSH connection.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SshConnection"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshConnection",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SshConnection"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SshConnection",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshconnection"
+},
+"https://github.com/apple/swift-nio-ssh": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+  "title" : "swift-nio-ssh",
+  "titleInlineContent" : [
+    {
+      "text" : "swift-nio-ssh",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-nio-ssh"
+}
+}
+}

@@ -1,1 +1,262 @@
-{"hierarchy":{"paths":[["doc:\/\/SshClient\/documentation\/SshClient","doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey"]]},"kind":"symbol","abstract":[{"type":"text","text":"Initialize host key validator."}],"sections":[],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"printWarning"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":" = true)"}],"platforms":["Linux"],"languages":["swift"]}]},{"kind":"parameters","parameters":[{"content":[{"inlineContent":[{"type":"text","text":"If true, the validator will print a warning to stderr"},{"type":"text","text":" "},{"type":"text","text":"every time a host key is validated."}],"type":"paragraph"}],"name":"printWarning"}]}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey\/init(printWarning:)"},"variants":[{"paths":["\/documentation\/sshclient\/allowanyhostkey\/init(printwarning:)"],"traits":[{"interfaceLanguage":"swift"}]}],"schemaVersion":{"major":0,"minor":2,"patch":0},"metadata":{"fragments":[{"text":"init","kind":"identifier"},{"text":"(","kind":"text"},{"text":"printWarning","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"},{"text":")","kind":"text"}],"title":"init(printWarning:)","roleHeading":"Initializer","modules":[{"name":"SshClient"}],"symbolKind":"init","role":"symbol","externalID":"s:9SshClient15AllowAnyHostKeyV12printWarningACSb_tcfc"},"references":{"doc://SshClient/documentation/SshClient/AllowAnyHostKey/init(printWarning:)":{"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey\/init(printWarning:)","title":"init(printWarning:)","kind":"symbol","role":"symbol","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"("},{"text":"printWarning","kind":"externalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:Sb","text":"Bool","kind":"typeIdentifier"},{"kind":"text","text":")"}],"abstract":[{"type":"text","text":"Initialize host key validator."}],"type":"topic","url":"\/documentation\/sshclient\/allowanyhostkey\/init(printwarning:)"},"doc://SshClient/documentation/SshClient":{"type":"topic","url":"\/documentation\/sshclient","title":"SshClient","identifier":"doc:\/\/SshClient\/documentation\/SshClient","role":"collection","abstract":[],"kind":"symbol"},"doc://SshClient/documentation/SshClient/AllowAnyHostKey":{"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey","title":"AllowAnyHostKey","kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"AllowAnyHostKey"}],"navigatorTitle":[{"kind":"identifier","text":"AllowAnyHostKey"}],"abstract":[{"type":"text","text":"Host key validator that accepts any key for any host."}],"type":"topic","url":"\/documentation\/sshclient\/allowanyhostkey"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Initialize host key validator.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SshClient\/documentation\/SshClient",
+        "doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey\/init(printWarning:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9SshClient15AllowAnyHostKeyV12printWarningACSb_tcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "printWarning"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SshClient"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(printWarning:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "printWarning"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = true)"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "If true, the validator will print a warning to stderr",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "every time a host key is validated.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "printWarning"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sshclient\/allowanyhostkey\/init(printwarning:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SshClient/documentation/SshClient": {
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/AllowAnyHostKey": {
+  "abstract" : [
+    {
+      "text" : "Host key validator that accepts any key for any host.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AllowAnyHostKey"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AllowAnyHostKey"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AllowAnyHostKey",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/allowanyhostkey"
+},
+"doc://SshClient/documentation/SshClient/AllowAnyHostKey/init(printWarning:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize host key validator.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "printWarning"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/AllowAnyHostKey\/init(printWarning:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(printWarning:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/allowanyhostkey\/init(printwarning:)"
+},
+"https://github.com/apple/swift-nio-ssh": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+  "title" : "swift-nio-ssh",
+  "titleInlineContent" : [
+    {
+      "text" : "swift-nio-ssh",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-nio-ssh"
+}
+}
+}

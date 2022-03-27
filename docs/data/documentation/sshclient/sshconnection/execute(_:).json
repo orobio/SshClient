@@ -1,1 +1,388 @@
-{"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/sshclient\/sshconnection\/execute(_:)"]}],"sections":[],"metadata":{"symbolKind":"method","role":"symbol","title":"execute(_:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"execute"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"RemoteProcess","preciseIdentifier":"s:9SshClient13RemoteProcessC"}],"modules":[{"name":"SshClient"}],"externalID":"s:9SshClient0A10ConnectionC7executeyAA13RemoteProcessCSSYaKF","roleHeading":"Instance Method"},"schemaVersion":{"major":0,"minor":2,"patch":0},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SshClient\/documentation\/SshClient\/SshConnection\/execute(_:)"},"hierarchy":{"paths":[["doc:\/\/SshClient\/documentation\/SshClient","doc:\/\/SshClient\/documentation\/SshClient\/SshConnection"]]},"primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["Linux"],"tokens":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"execute"},{"kind":"text","text":"("},{"kind":"externalParam","text":"_"},{"kind":"text","text":" "},{"kind":"internalParam","text":"command"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"preciseIdentifier":"s:9SshClient13RemoteProcessC","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess","kind":"typeIdentifier","text":"RemoteProcess"}]}],"kind":"declarations"},{"content":[{"type":"heading","level":2,"anchor":"return-value","text":"Return Value"},{"type":"paragraph","inlineContent":[{"type":"text","text":"The remote process."}]}],"kind":"content"},{"kind":"parameters","parameters":[{"content":[{"type":"paragraph","inlineContent":[{"text":"The command to execute remotely.","type":"text"}]}],"name":"command"}]}],"abstract":[{"type":"text","text":"Execute a command remotely."}],"kind":"symbol","references":{"doc://SshClient/documentation/SshClient/SshConnection":{"navigatorTitle":[{"kind":"identifier","text":"SshConnection"}],"type":"topic","url":"\/documentation\/sshclient\/sshconnection","title":"SshConnection","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshConnection","role":"symbol","abstract":[{"type":"text","text":"SSH connection."}],"fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"SshConnection"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient":{"type":"topic","url":"\/documentation\/sshclient","title":"SshClient","identifier":"doc:\/\/SshClient\/documentation\/SshClient","role":"collection","abstract":[],"kind":"symbol"},"doc://SshClient/documentation/SshClient/SshConnection/execute(_:)":{"type":"topic","url":"\/documentation\/sshclient\/sshconnection\/execute(_:)","title":"execute(_:)","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshConnection\/execute(_:)","role":"symbol","abstract":[{"type":"text","text":"Execute a command remotely."}],"fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"execute"},{"kind":"text","text":"("},{"kind":"typeIdentifier","preciseIdentifier":"s:SS","text":"String"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","preciseIdentifier":"s:9SshClient13RemoteProcessC","text":"RemoteProcess"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient/RemoteProcess":{"navigatorTitle":[{"kind":"identifier","text":"RemoteProcess"}],"type":"topic","url":"\/documentation\/sshclient\/remoteprocess","title":"RemoteProcess","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess","role":"symbol","abstract":[{"type":"text","text":"A remote process."}],"fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"RemoteProcess"}],"kind":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Execute a command remotely.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SshClient\/documentation\/SshClient",
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshConnection"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SshClient\/documentation\/SshClient\/SshConnection\/execute(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9SshClient0A10ConnectionC7executeyAA13RemoteProcessCSSYaKF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "execute"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:9SshClient13RemoteProcessC",
+        "text" : "RemoteProcess"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SshClient"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "execute(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "execute"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "command"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ") "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "async"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> "
+            },
+            {
+              "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:9SshClient13RemoteProcessC",
+              "text" : "RemoteProcess"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The remote process.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The command to execute remotely.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "command"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sshclient\/sshconnection\/execute(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SshClient/documentation/SshClient": {
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcess": {
+  "abstract" : [
+    {
+      "text" : "A remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcess"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcess",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcess"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteProcess",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocess"
+},
+"doc://SshClient/documentation/SshClient/SshConnection": {
+  "abstract" : [
+    {
+      "text" : "SSH connection.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SshConnection"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshConnection",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SshConnection"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SshConnection",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshconnection"
+},
+"doc://SshClient/documentation/SshClient/SshConnection/execute(_:)": {
+  "abstract" : [
+    {
+      "text" : "Execute a command remotely.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "execute"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9SshClient13RemoteProcessC",
+      "text" : "RemoteProcess"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshConnection\/execute(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "execute(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshconnection\/execute(_:)"
+},
+"https://github.com/apple/swift-nio-ssh": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+  "title" : "swift-nio-ssh",
+  "titleInlineContent" : [
+    {
+      "text" : "swift-nio-ssh",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-nio-ssh"
+}
+}
+}

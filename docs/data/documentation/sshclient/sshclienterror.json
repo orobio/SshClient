@@ -1,1 +1,399 @@
-{"sections":[],"kind":"symbol","identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError"},"abstract":[{"text":"SSH client errors.","type":"text"}],"topicSections":[{"title":"Enumeration Cases","identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/authenticatedStateNotReached","doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/authenticationFailed","doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/commandExecFailed","doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/invalidChannelType","doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/invalidHostKey","doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/noChannelAvailable"]},{"generated":true,"title":"Default Implementations","identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/Equatable-Implementations","doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/Error-Implementations"]}],"metadata":{"fragments":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"text":"SshClientError","kind":"identifier"}],"symbolKind":"enum","modules":[{"name":"SshClient"}],"roleHeading":"Enumeration","externalID":"s:9SshClient0aB5ErrorO","role":"symbol","title":"SshClientError","navigatorTitle":[{"kind":"identifier","text":"SshClientError"}]},"hierarchy":{"paths":[["doc:\/\/SshClient\/documentation\/SshClient"]]},"relationshipsSections":[{"kind":"relationships","type":"conformsTo","title":"Conforms To","identifiers":["doc:\/\/SshClient\/SQ","doc:\/\/SshClient\/s5ErrorP","doc:\/\/SshClient\/SH","doc:\/\/SshClient\/s8SendableP"]}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/sshclient\/sshclienterror"]}],"primaryContentSections":[{"declarations":[{"tokens":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"SshClientError"}],"languages":["swift"],"platforms":["Linux"]}],"kind":"declarations"}],"schemaVersion":{"patch":0,"major":0,"minor":2},"references":{"doc://SshClient/SH":{"title":"Swift.Hashable","identifier":"doc:\/\/SshClient\/SH","type":"unresolvable"},"doc://SshClient/s5ErrorP":{"title":"Swift.Error","identifier":"doc:\/\/SshClient\/s5ErrorP","type":"unresolvable"},"doc://SshClient/documentation/SshClient":{"type":"topic","url":"\/documentation\/sshclient","title":"SshClient","identifier":"doc:\/\/SshClient\/documentation\/SshClient","role":"collection","abstract":[],"kind":"symbol"},"doc://SshClient/documentation/SshClient/SshClientError/invalidHostKey":{"abstract":[],"role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"invalidHostKey","kind":"identifier"}],"title":"SshClientError.invalidHostKey","url":"\/documentation\/sshclient\/sshclienterror\/invalidhostkey","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/invalidHostKey","type":"topic","kind":"symbol"},"doc://SshClient/documentation/SshClient/SshClientError":{"navigatorTitle":[{"kind":"identifier","text":"SshClientError"}],"type":"topic","url":"\/documentation\/sshclient\/sshclienterror","title":"SshClientError","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError","role":"symbol","abstract":[{"type":"text","text":"SSH client errors."}],"fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"SshClientError"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient/SshClientError/Error-Implementations":{"type":"topic","kind":"article","title":"Error Implementations","url":"\/documentation\/sshclient\/sshclienterror\/error-implementations","role":"collectionGroup","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/Error-Implementations","abstract":[]},"doc://SshClient/documentation/SshClient/SshClientError/invalidChannelType":{"type":"topic","kind":"symbol","title":"SshClientError.invalidChannelType","url":"\/documentation\/sshclient\/sshclienterror\/invalidchanneltype","role":"symbol","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/invalidChannelType","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"invalidChannelType"}],"abstract":[]},"doc://SshClient/documentation/SshClient/SshClientError/authenticatedStateNotReached":{"kind":"symbol","abstract":[],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/authenticatedStateNotReached","url":"\/documentation\/sshclient\/sshclienterror\/authenticatedstatenotreached","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"authenticatedStateNotReached","kind":"identifier"}],"type":"topic","title":"SshClientError.authenticatedStateNotReached","role":"symbol"},"doc://SshClient/documentation/SshClient/SshClientError/noChannelAvailable":{"type":"topic","kind":"symbol","title":"SshClientError.noChannelAvailable","url":"\/documentation\/sshclient\/sshclienterror\/nochannelavailable","role":"symbol","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/noChannelAvailable","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"noChannelAvailable"}],"abstract":[]},"doc://SshClient/documentation/SshClient/SshClientError/Equatable-Implementations":{"kind":"article","abstract":[],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/Equatable-Implementations","url":"\/documentation\/sshclient\/sshclienterror\/equatable-implementations","type":"topic","title":"Equatable Implementations","role":"collectionGroup"},"doc://SshClient/s8SendableP":{"identifier":"doc:\/\/SshClient\/s8SendableP","type":"unresolvable","title":"Swift.Sendable"},"doc://SshClient/documentation/SshClient/SshClientError/commandExecFailed":{"type":"topic","url":"\/documentation\/sshclient\/sshclienterror\/commandexecfailed","title":"SshClientError.commandExecFailed","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/commandExecFailed","role":"symbol","abstract":[],"fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"commandExecFailed"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient/SshClientError/authenticationFailed":{"kind":"symbol","abstract":[],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/authenticationFailed","url":"\/documentation\/sshclient\/sshclienterror\/authenticationfailed","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"authenticationFailed","kind":"identifier"}],"type":"topic","title":"SshClientError.authenticationFailed","role":"symbol"},"doc://SshClient/SQ":{"type":"unresolvable","title":"Swift.Equatable","identifier":"doc:\/\/SshClient\/SQ"}}}
+{
+  "abstract" : [
+    {
+      "text" : "SSH client errors.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SshClient\/documentation\/SshClient"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9SshClient0aB5ErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SshClientError"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SshClient"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "SshClientError"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "SshClientError"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "SshClientError"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/SQ",
+        "doc:\/\/SshClient\/s5ErrorP",
+        "doc:\/\/SshClient\/SH",
+        "doc:\/\/SshClient\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/authenticatedStateNotReached",
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/authenticationFailed",
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/commandExecFailed",
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/invalidChannelType",
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/invalidHostKey",
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/noChannelAvailable"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/Equatable-Implementations",
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/Error-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sshclient\/sshclienterror"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SshClient/SH": {
+  "identifier" : "doc:\/\/SshClient\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://SshClient/SQ": {
+  "identifier" : "doc:\/\/SshClient\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://SshClient/documentation/SshClient": {
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/SshClientError": {
+  "abstract" : [
+    {
+      "text" : "SSH client errors.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SshClientError"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SshClientError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SshClientError",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror"
+},
+"doc://SshClient/documentation/SshClient/SshClientError/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror\/equatable-implementations"
+},
+"doc://SshClient/documentation/SshClient/SshClientError/Error-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/Error-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Error Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror\/error-implementations"
+},
+"doc://SshClient/documentation/SshClient/SshClientError/authenticatedStateNotReached": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "authenticatedStateNotReached"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/authenticatedStateNotReached",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SshClientError.authenticatedStateNotReached",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror\/authenticatedstatenotreached"
+},
+"doc://SshClient/documentation/SshClient/SshClientError/authenticationFailed": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "authenticationFailed"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/authenticationFailed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SshClientError.authenticationFailed",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror\/authenticationfailed"
+},
+"doc://SshClient/documentation/SshClient/SshClientError/commandExecFailed": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "commandExecFailed"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/commandExecFailed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SshClientError.commandExecFailed",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror\/commandexecfailed"
+},
+"doc://SshClient/documentation/SshClient/SshClientError/invalidChannelType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidChannelType"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/invalidChannelType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SshClientError.invalidChannelType",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror\/invalidchanneltype"
+},
+"doc://SshClient/documentation/SshClient/SshClientError/invalidHostKey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidHostKey"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/invalidHostKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SshClientError.invalidHostKey",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror\/invalidhostkey"
+},
+"doc://SshClient/documentation/SshClient/SshClientError/noChannelAvailable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "noChannelAvailable"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/noChannelAvailable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SshClientError.noChannelAvailable",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror\/nochannelavailable"
+},
+"doc://SshClient/s5ErrorP": {
+  "identifier" : "doc:\/\/SshClient\/s5ErrorP",
+  "title" : "Swift.Error",
+  "type" : "unresolvable"
+},
+"doc://SshClient/s8SendableP": {
+  "identifier" : "doc:\/\/SshClient\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+},
+"https://github.com/apple/swift-nio-ssh": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+  "title" : "swift-nio-ssh",
+  "titleInlineContent" : [
+    {
+      "text" : "swift-nio-ssh",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-nio-ssh"
+}
+}
+}

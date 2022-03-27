@@ -1,1 +1,193 @@
-{"schemaVersion":{"minor":2,"patch":0,"major":0},"metadata":{"externalID":"s:9SshClient0aB5ErrorO18invalidChannelTypeyA2CmF","symbolKind":"case","role":"symbol","title":"SshClientError.invalidChannelType","roleHeading":"Case","modules":[{"name":"SshClient"}],"fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"invalidChannelType"}]},"kind":"symbol","hierarchy":{"paths":[["doc:\/\/SshClient\/documentation\/SshClient","doc:\/\/SshClient\/documentation\/SshClient\/SshClientError"]]},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/invalidChannelType"},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"tokens":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"invalidChannelType","kind":"identifier"}],"platforms":["Linux"]}]}],"variants":[{"paths":["\/documentation\/sshclient\/sshclienterror\/invalidchanneltype"],"traits":[{"interfaceLanguage":"swift"}]}],"sections":[],"abstract":[{"type":"text","text":"No overview available."}],"references":{"doc://SshClient/documentation/SshClient/SshClientError":{"navigatorTitle":[{"kind":"identifier","text":"SshClientError"}],"type":"topic","url":"\/documentation\/sshclient\/sshclienterror","title":"SshClientError","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError","role":"symbol","abstract":[{"type":"text","text":"SSH client errors."}],"fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"SshClientError"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient/SshClientError/invalidChannelType":{"type":"topic","kind":"symbol","title":"SshClientError.invalidChannelType","url":"\/documentation\/sshclient\/sshclienterror\/invalidchanneltype","role":"symbol","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/invalidChannelType","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"invalidChannelType"}],"abstract":[]},"doc://SshClient/documentation/SshClient":{"type":"topic","url":"\/documentation\/sshclient","title":"SshClient","identifier":"doc:\/\/SshClient\/documentation\/SshClient","role":"collection","abstract":[],"kind":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SshClient\/documentation\/SshClient",
+        "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/invalidChannelType"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9SshClient0aB5ErrorO18invalidChannelTypeyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "invalidChannelType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SshClient"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "SshClientError.invalidChannelType"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "invalidChannelType"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sshclient\/sshclienterror\/invalidchanneltype"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SshClient/documentation/SshClient": {
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/SshClientError": {
+  "abstract" : [
+    {
+      "text" : "SSH client errors.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SshClientError"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SshClientError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SshClientError",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror"
+},
+"doc://SshClient/documentation/SshClient/SshClientError/invalidChannelType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidChannelType"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/SshClientError\/invalidChannelType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SshClientError.invalidChannelType",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/sshclienterror\/invalidchanneltype"
+},
+"https://github.com/apple/swift-nio-ssh": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+  "title" : "swift-nio-ssh",
+  "titleInlineContent" : [
+    {
+      "text" : "swift-nio-ssh",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-nio-ssh"
+}
+}
+}

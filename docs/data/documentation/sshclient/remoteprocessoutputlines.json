@@ -1,1 +1,379 @@
-{"abstract":[{"type":"text","text":"AsyncSequence of lines from stdout and stderr of a remote process."}],"schemaVersion":{"minor":2,"major":0,"patch":0},"relationshipsSections":[{"title":"Conforms To","kind":"relationships","type":"conformsTo","identifiers":["doc:\/\/SshClient\/Sci"]}],"hierarchy":{"paths":[["doc:\/\/SshClient\/documentation\/SshClient"]]},"sections":[],"kind":"symbol","primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["Linux"],"tokens":[{"text":"final","kind":"keyword"},{"text":" ","kind":"text"},{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"RemoteProcessOutputLines","kind":"identifier"}]}],"kind":"declarations"}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines"},"topicSections":[{"title":"Structures","identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/AsyncIterator"]},{"title":"Instance Methods","identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/makeAsyncIterator()"]},{"title":"Type Aliases","identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/Element"]},{"title":"Enumerations","identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/Line"]},{"generated":true,"title":"Default Implementations","identifiers":["doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/AsyncSequence-Implementations"]}],"variants":[{"paths":["\/documentation\/sshclient\/remoteprocessoutputlines"],"traits":[{"interfaceLanguage":"swift"}]}],"metadata":{"navigatorTitle":[{"text":"RemoteProcessOutputLines","kind":"identifier"}],"role":"symbol","title":"RemoteProcessOutputLines","symbolKind":"class","roleHeading":"Class","modules":[{"name":"SshClient"}],"fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"RemoteProcessOutputLines","kind":"identifier"}],"externalID":"s:9SshClient24RemoteProcessOutputLinesC"},"references":{"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines":{"navigatorTitle":[{"kind":"identifier","text":"RemoteProcessOutputLines"}],"type":"topic","url":"\/documentation\/sshclient\/remoteprocessoutputlines","title":"RemoteProcessOutputLines","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines","role":"symbol","abstract":[{"type":"text","text":"AsyncSequence of lines from stdout and stderr of a remote process."}],"fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"RemoteProcessOutputLines"}],"kind":"symbol"},"doc://SshClient/Sci":{"type":"unresolvable","title":"_Concurrency.AsyncSequence","identifier":"doc:\/\/SshClient\/Sci"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/Line":{"navigatorTitle":[{"kind":"identifier","text":"Line"}],"type":"topic","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/line","title":"RemoteProcessOutputLines.Line","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/Line","role":"symbol","abstract":[{"type":"text","text":"Output line from a remote process."}],"fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"Line"}],"kind":"symbol"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/Element":{"abstract":[],"type":"topic","title":"RemoteProcessOutputLines.Element","role":"symbol","kind":"symbol","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/Element","fragments":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"Element"}],"url":"\/documentation\/sshclient\/remoteprocessoutputlines\/element","navigatorTitle":[{"kind":"identifier","text":"Element"}]},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/AsyncIterator":{"navigatorTitle":[{"kind":"identifier","text":"AsyncIterator"}],"type":"topic","kind":"symbol","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/AsyncIterator","fragments":[{"text":"struct","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"AsyncIterator"}],"role":"symbol","title":"RemoteProcessOutputLines.AsyncIterator","abstract":[],"url":"\/documentation\/sshclient\/remoteprocessoutputlines\/asynciterator"},"doc://SshClient/documentation/SshClient":{"type":"topic","url":"\/documentation\/sshclient","title":"SshClient","identifier":"doc:\/\/SshClient\/documentation\/SshClient","role":"collection","abstract":[],"kind":"symbol"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/makeAsyncIterator()":{"type":"topic","kind":"symbol","identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/makeAsyncIterator()","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"makeAsyncIterator","kind":"identifier"},{"text":"() -> ","kind":"text"},{"text":"RemoteProcessOutputLines","kind":"typeIdentifier","preciseIdentifier":"s:9SshClient24RemoteProcessOutputLinesC"},{"text":".","kind":"text"},{"kind":"typeIdentifier","text":"AsyncIterator","preciseIdentifier":"s:9SshClient24RemoteProcessOutputLinesC13AsyncIteratorV"}],"role":"symbol","title":"makeAsyncIterator()","abstract":[],"url":"\/documentation\/sshclient\/remoteprocessoutputlines\/makeasynciterator()"},"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/AsyncSequence-Implementations":{"kind":"article","abstract":[],"identifier":"doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/AsyncSequence-Implementations","url":"\/documentation\/sshclient\/remoteprocessoutputlines\/asyncsequence-implementations","type":"topic","title":"AsyncSequence Implementations","role":"collectionGroup"}}}
+{
+  "abstract" : [
+    {
+      "text" : "AsyncSequence of lines from stdout and stderr of a remote process.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SshClient\/documentation\/SshClient"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9SshClient24RemoteProcessOutputLinesC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "RemoteProcessOutputLines"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SshClient"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "RemoteProcessOutputLines"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "RemoteProcessOutputLines"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "Linux"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "RemoteProcessOutputLines"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/Sci"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/AsyncIterator"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/makeAsyncIterator()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/Element"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/Line"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/AsyncSequence-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sshclient\/remoteprocessoutputlines"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SshClient/Sci": {
+  "identifier" : "doc:\/\/SshClient\/Sci",
+  "title" : "_Concurrency.AsyncSequence",
+  "type" : "unresolvable"
+},
+"doc://SshClient/documentation/SshClient": {
+  "abstract" : [
+    {
+      "text" : "Easy to use SSH client functionality with an asynchronous API (async\/await), built on ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SshClient",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines": {
+  "abstract" : [
+    {
+      "text" : "AsyncSequence of lines from stdout and stderr of a remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcessOutputLines"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RemoteProcessOutputLines"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteProcessOutputLines",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/AsyncIterator": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AsyncIterator"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/AsyncIterator",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AsyncIterator"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteProcessOutputLines.AsyncIterator",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/asynciterator"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/AsyncSequence-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/AsyncSequence-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "AsyncSequence Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/asyncsequence-implementations"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/Element": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Element"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/Element",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Element"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteProcessOutputLines.Element",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/element"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/Line": {
+  "abstract" : [
+    {
+      "text" : "Output line from a remote process.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Line"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/Line",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Line"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RemoteProcessOutputLines.Line",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/line"
+},
+"doc://SshClient/documentation/SshClient/RemoteProcessOutputLines/makeAsyncIterator()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "makeAsyncIterator"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9SshClient24RemoteProcessOutputLinesC",
+      "text" : "RemoteProcessOutputLines"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9SshClient24RemoteProcessOutputLinesC13AsyncIteratorV",
+      "text" : "AsyncIterator"
+    }
+  ],
+  "identifier" : "doc:\/\/SshClient\/documentation\/SshClient\/RemoteProcessOutputLines\/makeAsyncIterator()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "makeAsyncIterator()",
+  "type" : "topic",
+  "url" : "\/documentation\/sshclient\/remoteprocessoutputlines\/makeasynciterator()"
+},
+"https://github.com/apple/swift-nio-ssh": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-nio-ssh",
+  "title" : "swift-nio-ssh",
+  "titleInlineContent" : [
+    {
+      "text" : "swift-nio-ssh",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/github.com\/apple\/swift-nio-ssh"
+}
+}
+}
