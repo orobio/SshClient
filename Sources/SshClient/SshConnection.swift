@@ -9,6 +9,8 @@ import NIOSSH
 /// ```swift
 /// let remoteCommand = try await sshConnection.execute("ls")
 /// ```
+///
+/// The execute function returns a ``RemoteProcess`` object.
 public final class SshConnection {
     private let sshClient: SshClient    // Keep sshClient.eventLoopGroup alive
     private let channel: Channel

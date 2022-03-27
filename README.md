@@ -1,6 +1,6 @@
 # SshClient
 
-Provides easy to use SSH client functionality with an asynchronous API (async/await). The SSH client functionality is built on top of [swift-nio-ssh](https://github.com/apple/swift-nio-ssh).
+Easy to use SSH client functionality with an asynchronous API (async/await), built on [swift-nio-ssh](https://github.com/apple/swift-nio-ssh).
 
 `SshClient` currently provides the following functionality:
 - Opening an SSH connection.
@@ -17,6 +17,8 @@ for await line in remoteProcess.stdOutLines {
     print(line)
 }
 ```
+
+For more details, see [SshClient documentation](https://orobio.github.io/SshClient/documentation/sshclient).
 
 ## Adding SshClient as a Dependency
 

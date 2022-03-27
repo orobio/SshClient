@@ -8,6 +8,8 @@ import NIOSSH
 /// let sshConnection = try await SshClient().connect(host: "10.0.0.1", username: "username")
 /// ```
 ///
+/// When the connection is successfully established, an ``SshConnection`` object is returned.
+///
 /// By default SshClient uses:
 /// - A host key validator that accepts any key, but prints a warning on stderr.
 /// - A password prompt on the command line.
