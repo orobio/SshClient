@@ -34,7 +34,7 @@ struct SshExecute: AsyncParsableCommand {
     @Option(name: .shortAndLong, help: "The username to use for logging in.")
     var user: String?
 
-    mutating func run() async throws {
+    func run() async throws {
         let username = user ?? currentUser()
         let sshConnection = try await SshClient().connect(host: host, username: username, port: port)
 
