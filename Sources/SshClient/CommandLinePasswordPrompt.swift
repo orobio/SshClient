@@ -1,5 +1,11 @@
+// Linux
 #if canImport(Glibc)
 import Glibc
+#endif
+
+// macOS
+#if canImport(Darwin)
+import Darwin
 #endif
 
 /// Command line password prompt.

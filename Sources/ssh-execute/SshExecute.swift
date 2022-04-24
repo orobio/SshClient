@@ -1,4 +1,13 @@
+// Linux
+#if canImport(Glibc)
 import Glibc
+#endif
+
+// macOS
+#if canImport(Darwin)
+import Darwin
+#endif
+
 import ArgumentParser
 import SshClient
 
