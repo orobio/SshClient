@@ -45,4 +45,13 @@ public final class RemoteProcess {
         self.channel = channel
         self.exitCodeFuture = exitCodeFuture
     }
+
+    deinit {
+        Task { [sshConnection, channel] in
+            let promise = channel.eventLoop.makePromise(of: Void.self)
+            channel.close(promise: promise)
+            try await promise.futureResult.get()
+            withExtendedLifetime(sshConnection) {}  // Keep connection alive
+        }
+    }
 }

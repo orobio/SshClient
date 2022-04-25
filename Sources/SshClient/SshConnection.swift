@@ -47,6 +47,11 @@ public final class SshConnection {
 
     /// Deinitialize
     deinit {
-        // Close channel?
+        Task { [sshClient, channel] in
+            let promise = channel.eventLoop.makePromise(of: Void.self)
+            channel.close(promise: promise)
+            try await promise.futureResult.get()
+            withExtendedLifetime(sshClient) {}  // Keep sshClient.eventLoopGroup alive
+        }
     }
 }
