@@ -18,7 +18,9 @@ for await line in remoteProcess.stdOutLines {
 }
 ```
 
-For more details, see [SshClient documentation](https://orobio.github.io/SshClient/documentation/sshclient).
+## Documentation
+
+For detailed documentation, please see: [SshClient documentation](https://orobio.github.io/SshClient/documentation/sshclient).
 
 ## Adding SshClient as a Dependency
 
