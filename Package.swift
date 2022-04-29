@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
-        .package(url: "https://github.com/apple/swift-nio-ssh.git", from: "0.3.3"),
+        .package(url: "https://github.com/apple/swift-nio-ssh.git", .upToNextMinor(from: "0.4.0")),
         .package(url: "https://github.com/apple/swift-argument-parser", from: "1.1.1"),
     ],
     targets: [
